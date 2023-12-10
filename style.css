@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-container {
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(14, 14, 14, 0.7),rgba(0,0,0,0.6)),url(images/image-1.jpg);
+    background-size: cover;
+    background-repeat: none;
+    background-position: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.logo{
+    color: rgba(130, 226, 210, 0.911);
+    padding-top:25px;
+    padding-left:15px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+span {
+    color:black;
+    font-weight: bold;
+}
+
+nav ul li {
+    padding: 10px 10px;
+    text-align: center;
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 5px;
+    font-weight: bold;
+    color:white;
+    /* color: rgb(22, 98, 117); */
+}
+
+nav ul li a:hover {
+    color: rgb(146, 240, 219);
+  }
+
+button {
+    background-color: rgba(45, 134, 119, 0.911);
+    margin-left: 10px;
+    padding: 10px 22px;
+    border-radius: 12px;
+    border: none;
+    transition: .3s;
+    justify-content: end;
+}
+
+button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+button a {
+    align-content: center;
+    text-decoration: none;
+    color:white;
+}
+main {
+    justify-content: center;
+    align-items: center;
+}
+
+main p {
+    width:700px;
+    line-height: 20px;
+    color:rgb(230, 219, 219);
+}
